@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galería de Gatitos</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-gap: 20px;
+      padding: 20px;
+    }
+
+    .gallery-item {
+      background-color: #fff;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .gallery-item:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .gallery-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .caption {
+      padding: 15px;
+      text-align: center;
+    }
+
+    .custom-text {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .gallery-description {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .footer-description {
+      background-color: #666;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      font-size: 12px;
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Galería de Gatitos</h1>
+</header>
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="gatitos1.jpg" alt="Gatito 1">
+    <div class="caption">Gatito 1</div>
+  </div>
+  <div class="gallery-item">
+    <img src="gatitos2.jpg" alt="Gatito 2">
+    <div class="caption">Gatito 2</div>
+  </div>
+  <div class="gallery-item">
+    <img src="gatitos3.jpg" alt="Gatito 3">
+    <div class="caption">Gatito 3</div>
+  </div>
+  <div class="gallery-item">
+    <img src="gatitos4.jpg" alt="Gatito 4">
+    <div class="caption">Gatito 4</div>
+  </div>
+</div>
+<div class="gallery-description">
+  <p>¡Bienvenido a nuestra increíble galería de gatitos! Aquí encontrarás las fotos más adorables de gatitos que te harán sonreír. ¡Disfruta explorando nuestra colección!</p>
+</div>
+<div class="footer-description">
+  <p>© 2024 Galería de Gatitos. Todos los derechos reservados.</p>
+  <p>La vida de un crítico es sencilla en muchos aspectos, arriesgamos poco y tenemos poder sobre aquellos que ofrecen su trabajo y su servicio a nuestro juicio.
+
+    Prosperamos con las críticas negativas, divertidas de escribir y de leer, pero la triste verdad que debemos afrontar es que en el gran orden de las cosas, cualquier basura tiene más significado que lo que deja ver nuestra crítica.
+
+    Pero en ocasiones el crítico si se arriesga cada vez que descubre y defiende algo nuevo, el mundo suele ser cruel con el nuevo talento; las nuevas creaciones, lo nuevo, necesita amigos.
+
+    Anoche experimente algo nuevo; una extraordinaria cena de una fuente singular e inesperada. Decir solo que la comida y su creador han desafiado mis prejuicios sobre la buena cocina, subestimaría la realidad; me han tocado en lo más profundo.
+
+    En el pasado jamás oculte mi desdén por el famoso lema del chef Gusteau: Cualquiera puede cocinar. Pero al fin me doy cuenta de lo que quiso decir en realidad; no cualquiera puede convertirse en un gran artista, pero un gran artista puede provenir de cualquier lado.
+
+    Es difícil imaginar un origen más humilde que el del genio que ahora cocina en el restaurante Gusteau's y quien, en opinión de este critico, es nada menos que el mejor chef de Francia. ¡Pronto volveré a Gusteau's hambriento!</p>
+</div>
+</body>
+</html>
